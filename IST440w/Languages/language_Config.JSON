@@ -1,0 +1,12 @@
+[
+  {
+    "Language Name" : "English",
+    "Dictionary File" : "REPLACE",
+    "Quadgram File" : "Languages\\English\\english_quadgrams.txt"
+  },
+  {
+    "Language Name" : "Spanish",
+    "Dictionary File" : "REPLACE" ,
+    "Quadgram File" : "Languages\\Spanish\\spanish_quadgrams.txt"
+  }
+]
