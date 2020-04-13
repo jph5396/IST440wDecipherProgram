@@ -1,9 +1,3 @@
-/**
- * The langConfig class is responsible for handling the configuration of the system in regards to supported languages.
- * it allows for additional languages to be added past the original two languages supported by the prototype. It relies
- * on the language_Config.json file in order to locate and load the languages that are supported. If this file is not
- * present at the correct file path, the prototype will not be able to function.
- */
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -14,8 +8,12 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
-
-
+/**
+ * The langConfig class is responsible for handling the configuration of the system in regards to supported languages.
+ * it allows for additional languages to be added past the original two languages supported by the prototype. It relies
+ * on the language_Config.json file in order to locate and load the languages that are supported. If this file is not
+ * present at the correct file path, the prototype will not be able to function.
+ */
 public class langConfig {
 
     private ArrayList<Language> listOfLangs;
